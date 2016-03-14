@@ -16,6 +16,7 @@
     font-style:italic;
     font-size: 70px;
     padding: 50px;
+    margin: 0 auto;
 }
 
 .aside {
@@ -42,6 +43,8 @@
 
 .footer {
     background-color:pink ;
+    color:white;
     height:50px;
+    padding:30px;
     clear: both;
 }

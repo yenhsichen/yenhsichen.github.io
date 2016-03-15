@@ -10,7 +10,7 @@
 }
 
 .header {
-    background-color:pink;
+    background-color:#FFE4DB;
     color: white;
     font-family: arial;
     font-style:italic;
@@ -42,7 +42,7 @@
 }
 
 .footer {
-    background-color:pink ;
+    background-color:#FFE4DB ;
     color:white;
     height:50px;
     padding:30px;

@@ -1,0 +1,72 @@
+*{
+	box-sizing:border-box;
+}
+
+.header {
+   width:100%;
+   padding:20px 0;
+   background:#333;
+   color:white;
+   position: fixed;
+   margin:0 auto;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px 5px 5px;}
+
+.row1{float:left;
+	margin-top: 150px;
+	margin-left:100px;
+	margin-right:100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: #DBDCE4;
+	color: black;
+	font-size: 20px;
+	width:1000px;
+	height: 200px;
+	
+}
+.row2{float:left;
+	margin-top: 50px;
+	margin-left:100px;
+	margin-right:100px; 
+}
+
+[class^="col-"] {
+	border: 250px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:100px; 
+	background-color: #DBDCE4;
+	border-width: 1px;
+	border-color: #BCBCC3;
+	border-style: solid;
+	text-align: center;
+	float:left;
+}
+.buy {background-color:#3C93BA;
+color:white;
+font-family: arial;}
+
+.more {background-color:white;
+color:black;
+font-family: arial;}
+
+@media screen and ( min-width:992 px ){
+[class*="col-"] {
+        width: 25%;
+        }
+
+@media screen and ( min-width:768px ) and ( max-width: 991px ){
+[class*="col-"] {
+        width: 50%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

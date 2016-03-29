@@ -16,6 +16,9 @@
 	padding: 5px 5px 5px 5px;}
 
 .row1{float:left;
+	width: 1560px;
+	height: 200px;
+	box-sizing: content-box;
 	margin-top: 150px;
 	margin-left:100px;
 	margin-right:100px;
@@ -23,11 +26,9 @@
 	padding-left: 10px;
 	background-color: #DBDCE4;
 	color: black;
+	font-family: sans-serif;
 	font-size: 20px;
-	width:1000px;
-	height: 200px;
-	
-}
+	}
 .row2{float:left;
 	margin-top: 50px;
 	margin-left:100px;
@@ -35,6 +36,7 @@
 }
 
 [class^="col-"] {
+	box-sizing: border-box;
 	border: 250px;
 	padding: 10px;
 	margin-left: 10px;
@@ -45,8 +47,11 @@
 	border-color: #BCBCC3;
 	border-style: solid;
 	text-align: center;
+	font-family: sans-serif;
+	font-size: 10px;
 	float:left;
 }
+
 .buy {background-color:#3C93BA;
 color:white;
 font-family: arial;}

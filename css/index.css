@@ -1,15 +1,23 @@
-.container{margin:0 auto;
+.container{
+margin-top: 100px;
+text-align: center;
 height: 200px;
 border-bottom:10px;
 border-right: 0px;
 border-left: 0px;
 border-top: 0px;
-border-color: #234D9A;
-border-style: double; }
+border-color:white; }
+
+.logo{font-family: proxima-nova,sans-serif;
+font-size: 50px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 22.4px}
 
 .topnav{
 	position: relative;
 	margin: 20px;
+	letter-spacing: 1px;
 }
 .topnav ul{
 	margin: 0;
@@ -21,15 +29,17 @@ margin: 0 5px 10px 0;
 padding: 0;
 list-style: none;
 display: inline-block;
+text-align: center;
 }
 
 .topnav a{
-	padding: 3px;
+	padding: 10px;
 	text-decoration: none;
 	color: #999;
 	line-height: 100%;
-	font-family: arial;
-	font-size: 16px;
+	font-family: Optima Thin;
+	font-size: 15px;
+	text-align: center;
 }
 
 .topnav a:hover{
@@ -37,10 +47,46 @@ display: inline-block;
 }
 
 .topnav .current a{
-	background-color:#ACE635;
 	color: #fff;
 	border-radius: 5px; 
 }
+
+.row {background-color: #EFF9F9;
+	float:left;
+	margin:0px auto;
+	position: center;
+	}
+
+.row h6{font-family:Times New Roman;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: normal;}
+
+
+[class^="col-"] {
+	box-sizing: border-box;
+	border: 250px;
+	padding: 10px;
+	margin-top: 100px
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom:100px; 
+	background-color: white;
+	border-width: 1px;
+	border-color: #BCBCC3;
+	border-left-color: white;
+	border-right-color: white;
+	border-style: solid;
+	text-align: center;
+	font-size: 10px;
+	float:left;
+}
+[class^="col-"] h1{
+	font-family:sans-serif;
+	font-size: 15px;
+	font-weight: bold;}
+
 @media screen and (max-width: 600px){
 	.topnav{
 		position: relative;

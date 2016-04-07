@@ -1,0 +1,123 @@
+*{
+	box-sizing:border-box;
+}
+
+.header {
+   width:100%;
+   height: 110px;
+   padding:20px;
+   background:#2c3e50;
+   color:white;
+   position: fixed;
+   margin:0 auto;
+}
+.header a{
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	padding: 5px 5px 5px 5px;}
+
+.row1{
+	float:left;
+	width: 100%;
+	height: 700px;
+	box-sizing: content-box;
+	padding-top: 150px;
+	padding-left: 100px;
+	background-color: #18bc9c;
+	color: white;
+	text-align: center;
+	}
+
+.row1 h1{
+	font-family: arial;
+	font-size: 75px;}
+
+.row1 h2{
+	font-family: sans-serif;
+	font-size: 28px;}
+
+.row2{
+	display: block;
+	float:left;
+	width: 100%;
+	margin:0px 50px 0px 0px;
+	height: 900px;
+	box-sizing: content-box;
+	padding-top: 50px;
+	padding-left: 100px;
+	background-color: white;
+	color: #2c3e50;
+	text-align: center;
+}
+.row2 h2{
+	font-family: arial;
+	font-size: 50px;}
+
+[class^="col-"] {
+	box-sizing: border-box;
+	float:left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.col-1{margin-left: 250px}
+.row4{
+	display: block;
+	float:left;
+	width: 100%;
+	margin:0px 50px 0px 0px;
+	box-sizing: content-box;
+	padding-top: 50px;
+	padding-left: 100px;
+	background-color: white;
+}
+.col-4{margin-left: 250px}
+.row3{
+	float:left;
+	width: 100%;
+	height: 600px;
+	box-sizing: content-box;
+	background-color: #18bc9c;
+	color: white;
+	text-align: center;
+	}
+
+.row3 h2{
+	font-family: arial;
+	font-size: 50px;}
+
+.section-1{
+	box-sizing: border-box;
+	float:left;
+	text-align: left;
+	line-height: 30px;
+	font-size: 20px;
+	margin-left: 500px;
+	height: 170px;
+	width: 360px;
+}
+
+.section-2{box-sizing: border-box;
+	float:left;
+	text-align: left;
+	line-height: 30px;
+	font-size: 20px;
+	height: 170px;
+	width: 360px;}
+
+@media screen and ( min-width:992 px ){
+[class*="col-"] {
+        width: 33.33%;
+        }
+
+@media screen and ( min-width:768px ) and ( max-width: 991px ){
+[class*="col-"] {
+        width: 50%;}
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }

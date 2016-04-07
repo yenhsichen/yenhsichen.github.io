@@ -10,18 +10,20 @@
 }
 
 .header {
-    background-color:#FFE4DB;
-    color: white;
+    background-color:#FAE1DE;
+    color: #E81624;
     font-family: arial;
     font-style:italic;
     font-size: 70px;
+    font-weight: bold;
     padding: 50px;
     margin: 0 auto;
 }
 
 .aside {
-    background-color:lavender;
-    font-family:arial;
+    background-color:#E81624;
+    font-family: calibri;
+    letter-spacing: 2px;
     font-size: 20px;
     line-height: 50px;
     width: 260px;
@@ -30,6 +32,8 @@
     margin: 10px;
     float: left;
 }
+.aside a{text-decoration: none;
+    color:white;}
 .li{list-style-type:disc;}
 .section {
     width: 700px;
@@ -42,9 +46,12 @@
 }
 
 .footer {
-    background-color:#FFE4DB ;
-    color:white;
-    height:50px;
+    background-color:#FAE1DE;
+    color:#E81624;
+    font-family: calibri;
+    font-size: 15px;
+    letter-spacing: 2px;
+    height:100px;
     padding:30px;
     clear: both;
 }

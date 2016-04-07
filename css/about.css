@@ -1,0 +1,132 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container{
+margin-top: 100px;
+margin-bottom: 200px;
+margin-left: 200px;
+margin-right: 200px;
+text-align: center;
+max-height: 500px;
+padding-bottom: 5px;
+border-bottom:200px;
+border-right: 100px;
+border-left: 100px;
+border-top: 0px;
+border-bottom-color: black;
+border-style: double;
+border-top-color: white;
+border-left-color: white;
+border-right-color: white;
+border-width: 10px; }
+
+.logo{font-family: proxima-nova,sans-serif;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 22.4px}
+
+.topnav{
+	position: relative;
+	margin: 20px;
+	letter-spacing: 1px;
+}
+.topnav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.topnav li{
+margin: 0 5px 10px 0;
+padding: 0;
+list-style: none;
+display: inline-block;
+text-align: center;
+}
+
+.topnav a{
+	padding: 10px;
+	text-decoration: none;
+	color: #999;
+	line-height: 100%;
+	font-family: Optima Thin;
+	font-size: 20px;
+	text-align: center;
+}
+
+.topnav a:hover{
+	color: #000;
+}
+
+.topnav .current a{
+	color: #fff;
+	border-radius: 5px; 
+}
+
+.row{
+	margin:50px 200px 100px 200px;
+	position: relative;
+	float:left;}
+
+.row h1{
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 10px;}
+
+.row h3{
+	font-family: arial;
+	font-size: 20px;
+	}
+
+.row h4{
+	font-family: Optima Thin;
+	font-size: 15px;
+	color: #929896;
+	text-align: center;
+	letter-spacing: 5px}
+
+
+
+@media screen and (max-width: 600px){
+	.topnav{
+		position: relative;
+		min-height: 60px;
+	}
+	.topnav ul{
+		width: 100%;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	}
+	.topnav li{
+		display: none;
+		margin: 0;
+	}
+	.topnav .current{
+		display: block;
+	}
+	.topnav a{
+		display: block;
+		padding: 5px 5px 5px 20px;
+		text-align: left;
+	}
+	.topnav ul:hover li{
+		display: block;
+		margin: 3px;
+	}
+
+}
+
+
+
+

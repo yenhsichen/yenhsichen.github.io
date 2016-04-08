@@ -8,8 +8,8 @@
 .container{
 margin-top: 100px;
 margin-bottom: 200px;
-margin-left: 200px;
-margin-right: 200px;
+margin-left: 250px;
+margin-right: 250px;
 text-align: center;
 max-height: 500px;
 padding-bottom: 5px;
@@ -68,30 +68,48 @@ text-align: center;
 }
 
 .row{
-	margin:50px 200px 100px 200px;
+	margin:50px 300px 100px 300px;
 	position: relative;
 	float:left;}
 
 .row h1{
 	font-family: arial;
-	font-size: 25px;
+	font-size: 28px;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 10px;}
 
+.row h2{
+	font-family: Times New Roman;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;}
+
 .row h3{
 	font-family: arial;
-	font-size: 20px;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	color: #1D4686;
+	font-weight: bold;
 	}
 
 .row h4{
 	font-family: Optima Thin;
-	font-size: 15px;
+	font-size: 18px;
 	color: #929896;
 	text-align: center;
-	letter-spacing: 5px}
+	letter-spacing: 3px}
 
-
+.row h5{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-left: 200px;
+	text-align: left;
+	line-height: 25px;
+	}
 
 @media screen and (max-width: 600px){
 	.topnav{
